@@ -1,4 +1,4 @@
-package Writer_Reader;
+package writer_reader;
 import java.io.*;
 
 public class Write {
