@@ -1,3 +1,11 @@
+/*
+ 1.	Serialization interface needs to be implemented in order to make object     serialized.
+ 2.	Transient instance variable doesn’t serialized with Object state.
+ 3.	If Super class implements Serializable then sub class are also Serializable automatically.
+ 4.	If Super class is not serializable then when sub class is deserialized then super class’s default constructor will be invoked. Hence all variable will get default value and reference will be null
+ */
+
+
 package serializing;
 
 import java.io.FileOutputStream;
